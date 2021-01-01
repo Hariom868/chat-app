@@ -1,0 +1,120 @@
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+ 
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+body
+{
+	background-color:#ef8e38;
+	font-family: 'Poppins';
+}
+.one{
+height:624px;
+border-radius: 24px 0px 0px 24px;
+}
+ul.ho {
+    float: right;
+}
+ul.ho>li {
+    float: left;
+    margin-right: 2em;
+    text-transform: uppercase;
+}
+
+.logo_name {
+    font-size: 2em;
+    color: white;
+}
+
+.first
+{
+	
+	height:624px;
+	width:480px;
+	background-image:url('../Images/signup.png');
+border-radius: 24px 0px 0px 24px;
+
+}
+.second
+{
+        height:624px;
+	width:520px;
+	background-color: black;
+border-radius: 0px 24px 24px 0px;
+}
+.contain
+{
+width:340px;
+height:134px;
+}
+{box-sizing: border-box}
+.in{
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.icon {
+  padding: 10px;
+  background: green;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+.field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 14px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 90%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1.2;
+}
+.signup
+{
+width:50%
+}

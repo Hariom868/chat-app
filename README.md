@@ -1,3 +1,3 @@
 # chat-app
-a simple chat app where you can add friends from all user and talk with them and there is a separate chat to send images.
+a simple chat app where you can add friends  and chat with them and there is a separate chat page to send images.
 ## Demonstration:

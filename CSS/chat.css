@@ -1,0 +1,29 @@
+.pic
+{
+   border-radius: 50%;
+    height:60px;
+    width:60px;
+}
+.fir
+{
+	
+	height:519px;
+    width:480px;
+    background-color: aliceblue;
+    overflow:auto;
+    border-radius: 24px 0px 0px 24px;
+
+}
+.sec
+{
+        height:500px;
+    width:820px;
+    background-color: aliceblue;
+border-radius: 0px 24px 24px 0px;
+}
+.third
+{
+    height:380px;
+    background-color: aliceblue;
+    overflow:auto;
+}
